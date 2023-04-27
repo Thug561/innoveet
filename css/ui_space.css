@@ -1,0 +1,230 @@
+.uiSpaceContainer {
+  position: relative;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.spaceTriggerText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  position: absolute;
+  top: 18px;
+  left: 36px;
+  width: 200px;
+}
+
+
+#uiSpace {
+  width: 468px;
+
+  position: relative;
+  /* 
+  height: calc(100vh - 56px);
+  top: 56px;
+  left: 0px; 
+  */
+  /* position: absolute; */
+  /* background-color: #FFFFFF; */
+  background-color: #F3F3F3;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 133;
+}
+
+#spaceBlock1,
+#spaceBlock2,
+#spaceBlock3 {
+  position: relative;
+  height: 456px;
+}
+
+#closeCross {
+  z-index: 200;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 10px;
+  left: 440px;
+  background-image: url("../css/cross.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.uiSpaceButton0,
+.uiSpaceButton1,
+.uiSpaceButton2,
+.uiSpaceButton3,
+.uiSpaceButton4,
+.uiSpaceButton5,
+.uiSpaceButton6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  top: 50px;
+  cursor: pointer;
+}
+
+.uiSpaceButton0 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 10px;
+  left: 24px;
+  background-image: url("../css/elem_0.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+}
+
+.uiSpaceButton1 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 72px;
+  left: 24px;
+  background-image: url("../css/elem_1_1.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+}
+
+.uiSpaceButton2 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 134px;
+  left: 24px;
+  background-image: url("../css/elem_2_2.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+}
+
+.uiSpaceButton3 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 196px;
+  left: 24px;
+  background-image: url("../css/elem_3_3.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+}
+
+.uiSpaceButton4 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 258px;
+  left: 24px;
+  background-image: url("../css/elem_4_4.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+}
+
+.uiSpaceButton5 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 320px;
+  left: 24px;
+  background-image: url("../css/elem_5_5.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+}
+
+.uiSpaceButton6 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 382px;
+  left: 24px;
+  background-image: url("../css/elem_6_6.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+  
+}
+
+#sectionsListFront,
+#sectionsListBack,
+#sectionsListLeft,
+#sectionsListRight {
+  position: relative;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.uiSpaceButtonText {
+  width: 192px;
+
+  position: absolute;
+  left: 68px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+.sectionButton {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  height: 25px;
+  margin: 5px;
+  margin-top: 30px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+
+  cursor: pointer;
+}
+
+.uiSpaceText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  position: absolute;
+  top: 0px;
+  left: 36px;
+  width: 200px;
+}
+
+#uiSpaceText3,
+#uiSpaceText1,
+#uiSpaceText2 {
+  width: 192px;
+  position: absolute;
+  top: 25px;
+  left: 92px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+
+#closeCross {
+  z-index: 200;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 10px;
+  left: 420px;
+  background-image: url(../css/cross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

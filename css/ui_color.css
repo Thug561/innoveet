@@ -1,0 +1,173 @@
+.tab a:focus.active,
+.tab a.active {
+  background-color: red !important;
+  color: white !important;
+}
+
+
+.optionColorActive {
+  border: 1px solid #FF0000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.optionColorInactive {
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.optionColorCheckboxActive {
+
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  background-image: url("../css/checkboxactive.png");
+  background-repeat: no-repeat;
+}
+
+.optionColor2image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/wall_light.png");
+  background-repeat: no-repeat;
+}
+
+.optionColor1image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/wall_dark.png");
+  background-repeat: no-repeat;
+}
+
+.optionColorText {
+  width: 192px;
+
+  position: absolute;
+  top: 15px;
+  left: 92px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+#optionColor1_1 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 56px;
+  left: 24px;
+
+}
+
+#optionColor1_2 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 118px;
+  left: 24px;
+}
+
+#optionColor2_1 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  left: 24px;
+
+}
+
+#optionColor2_2 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 62px;
+  left: 24px;
+}
+
+
+#builderOptions3 {
+  position: relative;
+}
+
+
+#roofColor1 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 0px;
+  left: 24px;
+  background-image: url("../css/1_black.png");
+  background-repeat: no-repeat;
+}
+
+#roofColor2 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 62px;
+  left: 24px;
+  background-image: url("../css/2_red.png");
+  background-repeat: no-repeat;
+}
+
+#roofColor3 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 124px;
+  left: 24px;
+  background-image: url("../css/3_anthracite.png");
+  background-repeat: no-repeat;
+}
+
+#roofColor4 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 186px;
+  left: 24px;
+  background-image: url("../css/4_black_glazed.png");
+  background-repeat: no-repeat;
+}
+
+#roofColor5 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 248px;
+  left: 24px;
+  background-image: url("../css/5_red_glazed.png");
+  background-repeat: no-repeat;
+}
+
+
+
+#waterpipeColor1 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 0px;
+  left: 24px;
+  background-image: url("../css/pipe_Metal.png");
+  background-repeat: no-repeat;
+}
+
+#waterpipeColor2 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 62px;
+  left: 24px;
+  background-image: url("../css/pipe_Plastic.png");
+  background-repeat: no-repeat;
+}

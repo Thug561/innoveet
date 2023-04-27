@@ -1,0 +1,285 @@
+.optionHousesActive {
+  border: 1px solid #FF0000;
+  box-sizing: border-box;
+
+
+}
+
+.optionHousesInactive {
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+
+}
+
+.optionHousesCheckboxActive {
+
+  width: 24px;
+  height: 24px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  background-image: url("../css/checkboxactive.png");
+  background-repeat: no-repeat;
+}
+
+.optionHousesCheckboxInactive {}
+
+
+.optionHouses0image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.optionHouses1image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.optionHouses2image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.optionHouses3image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.optionHouses4image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.optionHouses5image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.optionHouses6image {
+  width: 54px;
+  height: 54px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.optionHousesText {
+  width: 292px;
+
+  position: absolute;
+  top: 15px;
+  left: 72px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+.housesSelector0 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 0px;
+  left: 24px;
+}
+
+
+.housesSelector1 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 62px;
+  left: 24px;
+}
+
+.housesSelector2 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 124px;
+  left: 24px;
+}
+
+.housesSelector3 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 186px;
+  left: 24px;
+}
+
+.housesSelector4 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 248px;
+  left: 24px;
+}
+
+.housesSelector5 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 310px;
+  left: 24px;
+}
+
+.housesSelector6 {
+  position: absolute;
+  width: 408px;
+  height: 56px;
+  top: 372px;
+  left: 24px;
+}
+
+#house1_1,
+#house1_2,
+#house1_3,
+#house1_4,
+#house2_1,
+#house2_2,
+#house2_3,
+#house2_4 {
+  height: 500px;
+  position: relative;
+  margin-top: 14px;
+}
+
+#house1_1{
+  padding-bottom: 10px;
+  margin-bottom: -70px;
+}
+
+#house1options{
+  border-bottom: 2px solid #F3F3F3;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+
+.houseSwitcher {
+  width: 100%;
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 10px;
+  padding-left: 34px;
+  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.houseSwitcherArrow {
+  position: absolute;
+  left: 428px;
+}
+
+.houseOptionText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
+  position: absolute;
+  top: 39px;
+  left: 104px;
+  width: 200px;
+}
+
+
+.houseCheckDiv {
+  position: relative;
+  height: 40px;
+  height: 96px;
+  border: 1px solid #CCCCCC;
+  width: 408px;
+  margin-left: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.houseSwitcherStyle {
+  position: absolute;
+  left: 334px;
+  top: 36px;
+}
+
+
+
+
+.optionHouse_type1 {
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 8px;
+  left: 10px;
+}
+
+.optionHouse_type2 {
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../css/house_right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 8px;
+  left: 10px;
+}
