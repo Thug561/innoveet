@@ -1,0 +1,25 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transform: Rotate">
+  <Param enum_val1="Y axis" enum_val2="Z axis" value="1" enum_val3="custom axis" name="rotAxis" description="Rotation on:" tooltip="Choose a method" enum_cardinality="4" type="RichEnum" enum_val0="X axis"/>
+  <Param enum_val1="barycenter" enum_val2="custom point" value="0" name="rotCenter" description="Center of rotation:" tooltip="Choose a method" enum_cardinality="3" type="RichEnum" enum_val0="origin"/>
+  <Param value="-90" name="angle" description="Rotation Angle" min="-360" max="360" tooltip="Angle of rotation (in &lt;b>degree&lt;/b>). If snapping is enabled this value is rounded according to the snap value" type="RichDynamicFloat"/>
+  <Param name="customAxis" description="Custom axis" tooltip="This rotation axis is used only if the 'custom axis' option is chosen." x="0" type="RichDirection" y="0" z="0"/>
+  <Param name="customCenter" description="Custom center" tooltip="This rotation center is used only if the 'custom point' option is chosen." x="0" type="RichPosition" y="0" z="0"/>
+  <Param value="false" name="snapFlag" description="Snap angle" tooltip="If selected, before starting the filter will remove any unreferenced vertex (for which curvature values are not defined)" type="RichBool"/>
+  <Param value="30" name="snapAngle" description="Snapping Value" tooltip="This value is used to snap the rotation angle (i.e. if the snapping value is 30, 227 becomes 210)." type="RichFloat"/>
+  <Param value="true" name="Freeze" description="Freeze Matrix" tooltip="The transformation is explicitly applied, and the vertex coordinates are actually changed" type="RichBool"/>
+  <Param value="false" name="allLayers" description="Apply to all visible Layers" tooltip="If selected the filter will be applied to all visible mesh layers" type="RichBool"/>
+ </filter>
+ <filter name="Transform: Scale, Normalize">
+  <Param value="0.01" name="axisX" description="X Axis" tooltip="Scaling" type="RichFloat"/>
+  <Param value="0.01" name="axisY" description="Y Axis" tooltip="Scaling" type="RichFloat"/>
+  <Param value="0.01" name="axisZ" description="Z Axis" tooltip="Scaling" type="RichFloat"/>
+  <Param value="true" name="uniformFlag" description="Uniform Scaling" tooltip="If selected an uniform scaling (the same for all the three axis) is applied (the X axis value is used)" type="RichBool"/>
+  <Param enum_val1="barycenter" enum_val2="custom point" value="0" name="scaleCenter" description="Center of scaling:" tooltip="Choose a method" enum_cardinality="3" type="RichEnum" enum_val0="origin"/>
+  <Param name="customCenter" description="Custom center" tooltip="This scaling center is used only if the 'custom point' option is chosen." x="0" type="RichPosition" y="0" z="0"/>
+  <Param value="false" name="unitFlag" description="Scale to Unit bbox" tooltip="If selected, the object is scaled to a box whose sides are at most 1 unit length" type="RichBool"/>
+  <Param value="true" name="Freeze" description="Freeze Matrix" tooltip="The transformation is explicitly applied, and the vertex coordinates are actually changed" type="RichBool"/>
+  <Param value="false" name="allLayers" description="Apply to all visible Layers" tooltip="If selected the filter will be applied to all visible mesh layers" type="RichBool"/>
+ </filter>
+</FilterScript>

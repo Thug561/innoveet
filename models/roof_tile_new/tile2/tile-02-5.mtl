@@ -1,0 +1,15 @@
+# Blender 3.1.0 MTL File: 'roof_tile-09.blend'
+# www.blender.org
+
+newmtl roof-tile-01-Black
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  roof_tile-01_Material-Black_BaseColor.png
+map_Ns  roof_tile-01_Material_Roughness.png
+map_refl  roof_tile-01_Material_Metallic.png
